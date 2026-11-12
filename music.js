@@ -32,7 +32,7 @@
     // { title: "Song name", src: "audio/song-1.mp3" },
     // { title: "Another song", src: "https://example.com/song-2.mp3" },
   ];
-  const DEFAULT_VOLUME = 0.3;
+  const DEFAULT_VOLUME = 0.18;
   const FADE_MS = 500;
   const TOAST_MS = 4500;   // how long the "Now playing" pop-up stays on screen
 
