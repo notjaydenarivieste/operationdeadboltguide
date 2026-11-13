@@ -419,7 +419,7 @@ const SECTIONS = [
           },
           {
             id: "scorcher", name: "Scorcher", tag: "Wonder Weapon", tagType: "good",
-            text: "A powerful, charged wonder weapon. Its primary fire shoots a beam of plasma that damages anything that it touches. If uncharged, the beam dissipates instantly. If fully charged, it will leave a trail of plasma that dissipates slowly over a short period of time.",
+            text: "A powerful, charged wonder weapon. Its primary fire shoots a beam of plasma that damages anything that it touches. If uncharged, the beam disappears instantly. If fully charged, it will leave a trail of plasma that dissipates slowly over a short period of time.",
             facts: [
               "Obtain: craft from a Schematic, or roll it from the Mystery Box.",
               "Its alt-fire is able to launch you vertically over the map, covering great distances. If fully charged, it can hop you a great 30-40 meters from the ground. If uncharged... im pretty sure you can jump higher than that."
