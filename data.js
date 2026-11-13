@@ -218,7 +218,7 @@ const SECTIONS = [
       {
         title: "Operation Deadbolt — Protagonists",
         items: [
-          { id: "soap", name: "Johnny “Soap” MacTavish", tag: "Protagonist", tagType: "good", text: "Leads field operations and commands the strike teams you deploy with. A veteran of the Modern Warfare storyline, he is the steady hand on the ground." },
+          { id: "soap", name: "Johnny “Soap” MacTavish", tag: "Protagonist", tagType: "good", text: "Leads field operations and commands the strike teams you deploy with. A veteran of the Modern Warfare storyline, he is the steady hand on the ground.", facts:["Operation Deadbolt takes place before the Modern Warfare III storyline, right after the nuking of Verdansk. That is why he is alive here!"] },
           { id: "greene", name: "Selma Greene", tag: "Protagonist", tagType: "good", text: "Special Services Officer and commander of Operation Deadbolt. She runs the program and is openly distrustful of Dr. Jansen." },
           { id: "jansen", name: "Dr. Ava Jansen", tag: "Protagonist (conflicted)", tagType: "good", text: "A physicist who defected from Zakhaev's service and builds the Aether Neutralizer for Deadbolt. She is bonded to the Dark Aether, and her origins (her biological mother is Samantha Maxis) drive the story." },
           { id: "ravenov", name: "Sergei Ravenov", tag: "Protagonist", tagType: "good", text: "A former Requiem member and Jansen's guardian. He withholds the truth about her origins, which strains his relationship with Deadbolt." },
@@ -226,8 +226,8 @@ const SECTIONS = [
           { id: "barrera", name: "Dr. Hugo Barrera", tag: "Protagonist", tagType: "good", text: "Scientist who conducts seismic scans and studies the High Value Targets you bring down." },
           { id: "kapoor", name: "Rupinder Kapoor", tag: "Protagonist", tagType: "good", text: "Chief Mechanic who keeps Deadbolt's vehicles and equipment running." },
           { id: "miller", name: "Corporal Krystal Miller", tag: "Protagonist", tagType: "good", text: "Quartermaster Corporal who manages Deadbolt's supplies and Acquisitions." },
-          { id: "laswell", name: "Kate Laswell", tag: "Protagonist", tagType: "good", text: "Briefs the strike team on the larger picture and the stakes of the mission." },
-          { id: "fang", name: "Amy Fang", tag: "Protagonist", tagType: "good", text: "Pilot responsible for evacuation, flying you out when you reach the exfil." },
+          { id: "laswell", name: "Kate Laswell", tag: "Protagonist", tagType: "good", text: "A CIA Operative that briefs the strike team on the larger picture and the stakes of the mission." },
+          { id: "fang", name: "Amy Fang", tag: "Protagonist", tagType: "good", text: "Pilot responsible for evacuation, flying you out when you reach the exfil. Be sure to say thanks!" },
         ],
       },
       {
@@ -246,7 +246,7 @@ const SECTIONS = [
           { id: "grey", name: "Elizabeth Grey", tag: "Protagonist (Requiem)", tagType: "good", text: "Requiem scientist. Listed as one of Jansen's biological mothers. Deceased." },
           { id: "maxis", name: "Samantha Maxis", tag: "Protagonist (Requiem)", tagType: "good", text: "Requiem member and Jansen's biological mother, a key link to the wider Dark Aether Saga." },
           { id: "carver", name: "Mackenzie Carver", tag: "Protagonist (Requiem)", tagType: "good", text: "Requiem member from earlier in the saga. Deceased." },
-          { id: "weaver", name: "Grigori Weaver", tag: "Protagonist (Requiem)", tagType: "good", text: "Killed at the start of the outbreak. Deceased." },
+          { id: "weaver", name: "Grigori Weaver", tag: "Protagonist (Requiem)", tagType: "good", text: "Died at the start of the outbreak. Deceased." },
         ],
       },
     ],
