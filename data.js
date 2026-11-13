@@ -320,7 +320,7 @@ const SECTIONS = [
           { id: "frost-blast", name: "Frost Blast", tag: "Field Upgrade", tagType: "neutral", text: "A freezing shockwave that slows and damages nearby enemies." },
           { id: "aether-shroud", name: "Aether Shroud", tag: "Field Upgrade", tagType: "neutral", text: "Cloaks you in Aether energy so zombies lose track of you." },
           { id: "tesla-storm", name: "Tesla Storm", tag: "Field Upgrade", tagType: "neutral", text: "Calls down a storm of electricity that strikes enemies around you." },
-                    { id: "healing-aura", name: "Healing Aura", tag: "Field Upgrade", tagType: "neutral", text: "Creates a pulse of restorative energy around you that heals you and nearby teammates, making it a strong pick when your squad is under pressure." },
+          { id: "healing-aura", name: "Healing Aura", tag: "Field Upgrade", tagType: "neutral", text: "Creates a pulse of restorative energy around you that heals you and nearby teammates, making it a strong pick when your squad is under pressure." },
         ],
       },
       {
@@ -354,7 +354,7 @@ const SECTIONS = [
           { id: "mangler", name: "Mangler", tag: "High Value Target", tagType: "bad", text: "An armored bruiser with a devastating cannon attack with suprisingly strong tracking. Hunting one is part of the Legendary Dog Collar relic bounty for the Opal Palace rift.", facts: ["Destroying its cannon will cause it to relentlessly charge at you."] },
           { id: "disciple", name: "Disciple", tag: "High Value Target", tagType: "bad", text: "A spellcaster that is able to buff its undead allies and drain your life to heal itself. Appears as a bounty target in Tier II and III. An Elite Disciple guards the Old Town rift.", facts: ["Shooting its hand while doing its lifesteal attack will cause it to do massive amounts of damage."]},
           { id: "mega-abom", name: "Mega Abomination", tag: "Tier III Target", tagType: "bad", text: "A towering aberration that only spawns on the Tier III. Armed with an aggressive ram charge and a devastating electric beam, he should be your number one priority! It guards the Opal Palace rift and drops a Sigil.", facts: ["Throwing a lethal grenade at one of its open mouths will cause the Mega Abombination to consume it and deal damage. Try throwing a thermite into its mouth and watch the fun!"] },
-          { id: "orcus", name: "Orcus", tag: "Story enemy", tagType: "bad", text: "Appears in the Confrontation mission and is killed with the Aetherium Neutralizer." },
+          { id: "orcus", name: "Orcus", tag: "Story enemy", tagType: "bad", text: "A colossal Aether Worm that has burrowed deep into the ground and can only be fought after doing a certain Act Mission.", facts: ["How did that thing go unnoticed underground?"] },
         ],
       },
             {
@@ -530,7 +530,7 @@ const SECTIONS = [
     id: "rifts",
     title: "Dark Aether Rift",
     blurb: "Venture to The Place Below Creation!",
-    intro: "Once you finish the Act IV story mission and a short quest, you can open a Dark Aether Rift. Completing Tier III contracts earns Sigils, which activate a rift. Your squad then votes whether to enter. You get 30 minutes to finish three contracts and exfil through the rifts. The Hardcore version uses Elder Sigils and a 15-minute timer.",
+    intro: "Once you finish the Act IV story mission and a short quest, you can open a Dark Aether Rift. Completing Tier III contracts earns Sigils, which activate a rift. Your squad then votes whether to enter. You get 30 minutes to finish three contracts and exfil through the rifts. The Hardcore version uses Elder Sigils and a 15-minute timer. Good luck, you'll going to need it!",
     groups: [
       {
         title: "How to open a rift",
