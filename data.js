@@ -43,7 +43,7 @@ const SECTIONS = [
   {
     id: "lore",
     title: "Lore",
-    blurb: "The story of Operation Deadbolt, told act by act.",
+    blurb: "The story of Operation Deadbolt. Learn how they contain the undead threat.",
     intro: "Deadbolt's story is delivered through four Mission Acts, each made up of numbered tiers of story missions. Between missions you will hear radio chatter, cutscenes and audio logs revealing how Dr. Ava Jansen, the Dark Aether and Terminus Outcomes are tied together. Acts I–III were available at launch; Act IV arrived with Season One.",
     layout: "wide",
         groups: [
@@ -212,7 +212,7 @@ const SECTIONS = [
   {
     id: "characters",
     title: "Characters",
-    blurb: "Who's who in the Dark Aether Saga's newest chapter.",
+    blurb: "Meet the characters you'll come across during the story. Some may help, while some might try to stop you.",
     intro: "Characters are classified by their role in the story. Note that some, like Ava Jansen, are allies whose loyalties are tested over the acts.",
     groups: [
       {
@@ -256,7 +256,7 @@ const SECTIONS = [
   {
     id: "map",
     title: "Map",
-    blurb: "Zaravan, Urzikstan — and the three threat tiers inside it.",
+    blurb: "Welcome to Urzikstan. Population? Less than yesterday.",
     intro: "The Exclusion Zone is split into three threat tiers. You always start at the outer edge in Tier I and work inward. The deeper you go, the tougher the enemies, the better the rewards, and the more Containment Level points you earn.",
     groups: [
       {
@@ -296,7 +296,7 @@ const SECTIONS = [
   {
     id: "utilities",
     title: "Utilities",
-    blurb: "Machines, stations and gear scattered across the map.",
+    blurb: "Various utilites found in the map that will help you on your journey on containing the outbreak.",
     intro: "Essence is the currency of Deadbolt, and these utilities are where you spend it. Learn where they are and what they do, because they decide how long you will survive.",
     groups: [
       {
@@ -340,17 +340,17 @@ const SECTIONS = [
   {
     id: "enemies",
     title: "Enemies",
-    blurb: "Everything hostile in the Exclusion Zone, split into two threats.",
+    blurb: "Adversaries that you'll find in Urzikstan. Some you can ignore, some you'll need to pay more attention...",
     intro: "You face two very different enemy groups: creatures born from the Dark Aether, and the human mercenary army Terminus Outcomes. Learn which is which and you can pick the right weapon and tactic.",
     groups: [
       {
         title: "Part 1 — The Dark Aether",
         note: "Undead and Aether-born creatures. Bosses are covered in the Bosses tab.",
         items: [
-          { id: "zombies", name: "Zombies", tag: "Common", tagType: "neutral", text: "The standard undead, with Special and Elite variants that are tougher. Glowing zombies appear in several contract and rift objectives." },
-          { id: "nest-crawlers", name: "Nest Crawlers", tag: "Aether Nest", tagType: "neutral", text: "Native to Aether Nests, where they thrive in the gas. Bring a Gas Mask." },
-          { id: "hellhounds", name: "Hellhounds", tag: "Special", tagType: "bad", text: "Spawn from Dog Houses. Cryo ammo slows them, and a Molotov can recruit them as friendly dogs." },
-          { id: "mimic", name: "Mimic", tag: "High Value Target", tagType: "bad", text: "A bounty target in Eliminate the Bounty contracts. A special Mimic guards the Nahr Bathhouse rift and uses EMP waves." },
+          { id: "zombies", name: "Zombies", tag: "Common", tagType: "neutral", text: "The standard undead you'll find in the map with Special and Elite variants that are tougher. Armored variant exists, taking more punishment before falling.Glowing zombies appear in several contract and rift objectives." },
+          { id: "nest-crawlers", name: "Nest Crawlers", tag: "Aether Nest", tagType: "neutral", text: "Native to Aether Nests, where they thrive in the gas. They detatch from the walls and come after you to explode." },
+          { id: "hellhounds", name: "Hellhounds", tag: "Special", tagType: "bad", text: "Spawns randomly on the higher tier zone. They attack fast and hard, but are essentially popcorn enemies. A friendly hellhound can be recruited by doing a small easter egg!" },
+          { id: "mimic", name: "Mimic", tag: "High Value Target", tagType: "bad", text: "An enemy that disguises itself as a loot drop. They can grab you from a short distance, and hit you with a stunning electric attack. A special Mimic guards the Nahr Bathhouse rift and uses EMP waves." },
           { id: "mangler", name: "Mangler", tag: "High Value Target", tagType: "bad", text: "A heavy bruiser and bounty target. Hunting one is part of the Legendary Dog Collar relic bounty for the Opal Palace rift." },
           { id: "disciple", name: "Disciple", tag: "High Value Target", tagType: "bad", text: "Appears as a bounty target in Tier II and III. An Elite Disciple guards the Old Town rift." },
           { id: "mega-abom", name: "Mega Abomination", tag: "Tier III Target", tagType: "bad", text: "A towering Tier III High Value Target. It guards the Opal Palace rift and drops a Sigil." },
@@ -381,7 +381,7 @@ const SECTIONS = [
       {
         title: "Part 2C — Terminus Outcomes: Air Support",
         items: [
-          { id: "helis", name: "Helicopters", tag: "Air", tagType: "bad", text: "Reinforcement and patrol helicopters that can be shot down." },
+          { id: "helis", name: "Helicopters", tag: "Air", tagType: "bad", text: "Reinforcement and patrol helicopters that can be shot down. Some may hit you hard with their guns, some deploy reinforcements nto the field. one thing is for certain, shoot them down!" },
         ],
       },
     ],
@@ -391,7 +391,7 @@ const SECTIONS = [
   {
     id: "wonder-weapons",
     title: "Wonder Weapons",
-    blurb: "The rare, devastating weapons of the zone.",
+    blurb: "Time to familiarize yourself with Waffle Weapons! Rare, but extremely powerful weapons you can use to fight back against your enemies.",
     intro: "Wonder Weapons are crafted from hard-to-find Schematics at the lobby's Schematic Crafting location. Alternatively, with a little bit of dumb luck, the Mystery Box, or random reward rifts, may be able to give one for you and your squad!",
     groups: [
       {
@@ -399,7 +399,7 @@ const SECTIONS = [
         items: [
           {
             id: "wunderwaffe", name: "Wunderwaffe DG-2", tag: "Ultra rarity", tagType: "good",
-            text: "A returning classic. Historically it fires a bolt of lightning that kills its target and chains to nearby zombies, with up to 10 kills per shot. This chain lightning works through walls, so it can be useful in close-quarter encounters!",
+            text: "It fires a bolt of lightning that kills its target and chains to nearby zombies, with up to 10 kills per shot. This chain lightning works through walls, so it can be useful in close-quarter encounters!",
             facts: [
               "Mystery Box: Roll it for 950 Essence.",
               "Schematic: can be built from the Schematics menu with a hefty 48-hour cooldown.",
@@ -431,7 +431,8 @@ const SECTIONS = [
             facts: [
               "Obtain: the V-R11 Case is a Rift #2 reward.",
               "It can be used to fully repair and refuel your vehicle in a couple of shots. This repair mechanic also works on the ACV Contract!",
-              "Mind the ABYSMALLY slow firing speed."
+              "Mind the ABYSMALLY slow firing speed.",
+              "Suspicously effective against Aether Worms. Use that information to your advantage."
             ],
           },
           {
@@ -461,8 +462,8 @@ const SECTIONS = [
   {
     id: "perks",
     title: "Perks",
-    blurb: "Perk-a-Cola machines and what each one does.",
-    intro: "Perk-a-Colas are bought from machines or crafted from Perk Cans, and they last for the mission unless you fully die. Perk-a-Cola costs are discounted as your Containment Level rises. Perk Cans can also be exfilled as High Value Items.",
+    blurb: "Perk-a-Colas. Drink them up, and learn what each one does!",
+    intro: "Perk-a-Colas are bought from their own designated machines or from the Der Wunderfizz, found on loot chests, or crafted from Perk Cans, and they last for the mission unless you fully die. Perk-a-Cola costs are discounted as your Containment Level rises. Perk Cans can also be exfilled as High Value Items.",
     groups: [
       {
         title: "Perk-a-Colas",
@@ -479,7 +480,7 @@ const SECTIONS = [
         ],
       },
       {
-        title: "How to get perks",
+        title: "Ways to Acquire Them!",
         items: [
           { id: "perk-machine", name: "Perk Machines", tag: "Buy", tagType: "neutral", text: "Spend Essence at a machine in the world. Costs drop as your Containment Level increases. Image above is the Der Wunderfizz Machine, where you can gain a variety or perks, but each perk has their own machines scattered around the map for you to consume!" },
           { id: "perk-can", name: "Perk Cans", tag: "Exfil item", tagType: "neutral", text: "High Value Items you can find, exfil with and store in the Acquisitions Stash, then use to gain a perk." },
@@ -493,8 +494,8 @@ const SECTIONS = [
   {
     id: "contracts",
     title: "Contracts",
-    blurb: "Jobs that pay out Essence, loot and Reward Rifts.",
-    intro: "Contracts are found across the map. Completing one rewards Essence and a Reward Rift. Difficulty and reward size scale with the tier. Activities give random loot but no Reward Rifts.",
+    blurb: "Time to acquire some cash!",
+    intro: "You learned about the various items you can use, now you need cash to get them. Contracts are an easy source of money and are found across the map. Completing one rewards Essence and a Reward Rift. Difficulty and reward size scale with the tier. Activities give random loot but no Reward Rifts.",
     groups: [
       {
         title: "Contracts",
@@ -511,7 +512,7 @@ const SECTIONS = [
       },
       {
         title: "Activities",
-        note: "Optional encounters that drop random loot but no Reward Rift.",
+        note: "Optional encounters that drop random loot but no Reward Rift. Execise with caution as their difficulty also scales with the map tiers.",
         items: [
           { id: "aether-nests", name: "Aether Nests", tag: "Activity", tagType: "good", text: "Gas-filled nests full of Nest Crawlers. A Gas Mask is required." },
           { id: "harvester-orbs", name: "Harvester Orbs", tag: "Activity", tagType: "good", text: "Aether orbs that fly around erratically once shot. Once damaged, it will drop loot to throw you off, but once destroyed, it will drop a plethera of loot for you to collect!" },
@@ -528,7 +529,7 @@ const SECTIONS = [
   {
     id: "rifts",
     title: "Dark Aether Rift",
-    blurb: "Four rifts, three contracts each, and a boss at the end.",
+    blurb: "Venture to The Place Below Creation!",
     intro: "Once you finish the Act IV story mission and a short quest, you can open a Dark Aether Rift. Completing Tier III contracts earns Sigils, which activate a rift. Your squad then votes whether to enter. You get 30 minutes to finish three contracts and exfil through the rifts. The Hardcore version uses Elder Sigils and a 15-minute timer.",
     groups: [
       {
@@ -584,17 +585,17 @@ const SECTIONS = [
   {
     id: "bosses",
     title: "Bosses",
-    blurb: "Warlords, rift guardians and the monsters behind them.",
+    blurb: "The biggest and the baddest of the bunch. Learn their attacks and how to counter them when you encounter them in your match.",
     intro: "Bosses are tougher than any enemy on the Enemies tab. Most are met in story missions and drop a Reward Rift with a rare relic, while others guard the Dark Aether Rifts.",
     groups: [
       {
         title: "Story Mission Bosses",
         items: [
-          { id: "gormgant", name: "Gorm'gant", tag: "Act IV — Bad Signal", tagType: "bad", text: "Defeated in the Bad Signal mission.", facts: ["Reward Rift grants the Locked Diary relic."] },
-          { id: "krawvir", name: "Krawvir", tag: "Act IV — Countermeasures", tagType: "bad", text: "Defeated in the Countermeasures mission.", facts: ["Reward Rift grants the Drums relic."] },
-          { id: "taoxia", name: "Taoxia", tag: "Act IV — Union", tagType: "bad", text: "Defeated in the Union mission.", facts: ["Reward Rift grants the Giraffe Toy relic."] },
-          { id: "orcus-boss", name: "Orcus", tag: "Act III — Confrontation", tagType: "bad", text: "Killed with the Aetherium Neutralizer in the Confrontation mission." },
-          { id: "stormcaller", name: "Stormcaller", tag: "Act III — Closing Time", tagType: "bad", text: "The boss waiting inside the Aether Storm during Closing Time." },
+          { id: "gormgant", name: "Gorm'gant", tag: "Act IV — Bad Signal", tagType: "bad", text: "Defeated in the Bad Signal mission.", facts: ["Reward Rift grants the Locked Diary relic.", "A colossal Aether Worm"] },
+          { id: "krawvir", name: "Krawvir", tag: "Act IV — Countermeasures", tagType: "bad", text: "Defeated in the Countermeasures mission.", facts: ["Reward Rift grants the Drums relic.", "An elite enemy Mangler."] },
+          { id: "taoxia", name: "Taoxia", tag: "Act IV — Union", tagType: "bad", text: "Defeated in the Union mission.", facts: ["Reward Rift grants the Giraffe Toy relic.", "An elite enemy Disciple"] },
+          { id: "orcus-boss", name: "Orcus", tag: "Act III — Confrontation", tagType: "bad", text: "Killed with the Aetherium Neutralizer in the Confrontation mission.", facts: ["A colossal Aether Worm."]},
+          { id: "stormcaller", name: "Stormcaller", tag: "Act III — Closing Time", tagType: "bad", text: "The boss waiting inside the Aether Storm during Closing Time.",  facts: ["This enemy is similar, but more powerful than your standard Disciple.", "Believed to be the cause of Urzikstan's Aether Storm Phenomenon."] },
         ],
       },
       {
