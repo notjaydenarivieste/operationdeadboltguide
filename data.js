@@ -213,7 +213,7 @@ const SECTIONS = [
     id: "characters",
     title: "Characters",
     blurb: "Meet the characters you'll come across during the story. Some may help, while some might try to stop you.",
-    intro: "Characters are classified by their role in the story. Note that some, like Ava Jansen, are allies whose loyalties are tested over the acts.",
+    intro: "These are characters that you'll come across during your journey in the mission acts. Some will help you, and some will hinder you. You have one goal however, contain the outbreak and queall the undead threat!",
     groups: [
       {
         title: "Operation Deadbolt — Protagonists",
@@ -257,7 +257,7 @@ const SECTIONS = [
     id: "map",
     title: "Map",
     blurb: "Welcome to Urzikstan. Population? Less than yesterday.",
-    intro: "The Exclusion Zone is split into three threat tiers. You always start at the outer edge in Tier I and work inward. The deeper you go, the tougher the enemies, the better the rewards, and the more Containment Level points you earn.",
+    intro: "Urzikstan's Exclusion Zone is split into three threat tiers. You always start at the outer edge in Tier I and work inward. The deeper you go, the tougher the enemies, the better the rewards, and the more Containment Level points you earn.",
     groups: [
       {
         title: "Threat Tiers",
@@ -297,7 +297,7 @@ const SECTIONS = [
     id: "utilities",
     title: "Utilities",
     blurb: "Various utilites found in the map that will help you on your journey on containing the outbreak.",
-    intro: "Essence is the currency of Deadbolt, and these utilities are where you spend it. Learn where they are and what they do, because they decide how long you will survive.",
+    intro: "Essence(or points) is the currency of Deadbolt, and these utilities are where you spend it. Learn where they are and what they do, because they decide how long you will survive.",
     groups: [
       {
         title: "Machines & Stations",
@@ -328,7 +328,7 @@ const SECTIONS = [
         items: [
           { id: "ammo-mods", name: "Ammo Mods", tag: "Weapon effect", tagType: "good", text: "Special rounds that add elemental effects to a weapon.", facts: ["Cryo Freeze, Shatter Blast, Dead Wire, Napalm Burst, and Brain Rot. Effective when paired with Elemental Pop!", "Specific ammo mods are needed to destroy the three obelisks that open the Unstable Rift."] },
           { id: "aether-tools", name: "Aether Tools", tag: "Upgrade item", tagType: "good", text: "Uncommon, Rare and Epic tools that upgrade your held weapon to a rarer form. Rarer forms deal more damage." },
-          { id: "gas-mask", name: "Gas Mask", tag: "Essential", tagType: "bad", text: "Required to avoid damage in Aether Nests and the Aether Storm." },
+          { id: "gas-mask", name: "Gas Mask", tag: "Essential", tagType: "bad", text: "Required to avoid damage in Aether Nests and the Aether Storm. These break the longer you use them so make sure you stock up on them!" },
           { id: "drones", name: "Redeploy Drones", tag: "Support", tagType: "neutral", text: "Drones used to redeploy to another part of the zone." },
           { id: "sentry", name: "Support Streaks", tag: "Support", tagType: "neutral", text: "Call-in support that provides firepower and clears hordes." },
         ],
@@ -349,11 +349,11 @@ const SECTIONS = [
         items: [
           { id: "zombies", name: "Zombies", tag: "Common", tagType: "neutral", text: "The standard undead you'll find in the map with Special and Elite variants that are tougher. Armored variant exists, taking more punishment before falling.Glowing zombies appear in several contract and rift objectives." },
           { id: "nest-crawlers", name: "Nest Crawlers", tag: "Aether Nest", tagType: "neutral", text: "Native to Aether Nests, where they thrive in the gas. They detatch from the walls and come after you to explode." },
-          { id: "hellhounds", name: "Hellhounds", tag: "Special", tagType: "bad", text: "Spawns randomly on the higher tier zone. They attack fast and hard, but are essentially popcorn enemies. A friendly hellhound can be recruited by doing a small easter egg!" },
+          { id: "hellhounds", name: "Hellhounds", tag: "Special", tagType: "bad", text: "Spawns randomly on the higher tier zones. They attack fast and hard, but are essentially popcorn enemies.", facts: ["A friendly hellhound can be recruited by doing a small easter egg!"] },
           { id: "mimic", name: "Mimic", tag: "High Value Target", tagType: "bad", text: "An enemy that disguises itself as a loot drop. They can grab you from a short distance, and hit you with a stunning electric attack. A special Mimic guards the Nahr Bathhouse rift and uses EMP waves." },
-          { id: "mangler", name: "Mangler", tag: "High Value Target", tagType: "bad", text: "A heavy bruiser and bounty target. Hunting one is part of the Legendary Dog Collar relic bounty for the Opal Palace rift." },
-          { id: "disciple", name: "Disciple", tag: "High Value Target", tagType: "bad", text: "Appears as a bounty target in Tier II and III. An Elite Disciple guards the Old Town rift." },
-          { id: "mega-abom", name: "Mega Abomination", tag: "Tier III Target", tagType: "bad", text: "A towering Tier III High Value Target. It guards the Opal Palace rift and drops a Sigil." },
+          { id: "mangler", name: "Mangler", tag: "High Value Target", tagType: "bad", text: "An armored bruiser with a devastating cannon attack with suprisingly strong tracking. Hunting one is part of the Legendary Dog Collar relic bounty for the Opal Palace rift.", facts: ["Destroying its cannon will cause it to relentlessly charge at you."] },
+          { id: "disciple", name: "Disciple", tag: "High Value Target", tagType: "bad", text: "A spellcaster that is able to buff its undead allies and drain your life to heal itself. Appears as a bounty target in Tier II and III. An Elite Disciple guards the Old Town rift.", facts: ["Shooting its hand while doing its lifesteal attack will cause it to do massive amounts of damage."]},
+          { id: "mega-abom", name: "Mega Abomination", tag: "Tier III Target", tagType: "bad", text: "A towering aberration that only spawns on the Tier III. Armed with an aggressive ram charge and a devastating electric beam, he should be your number one priority! It guards the Opal Palace rift and drops a Sigil.", facts: ["Throwing a lethal grenade at one of its open mouths will cause the Mega Abombination to consume it and deal damage. Try throwing a thermite into its mouth and watch the fun!"] },
           { id: "orcus", name: "Orcus", tag: "Story enemy", tagType: "bad", text: "Appears in the Confrontation mission and is killed with the Aetherium Neutralizer." },
         ],
       },
@@ -381,7 +381,7 @@ const SECTIONS = [
       {
         title: "Part 2C — Terminus Outcomes: Air Support",
         items: [
-          { id: "helis", name: "Helicopters", tag: "Air", tagType: "bad", text: "Reinforcement and patrol helicopters that can be shot down. Some may hit you hard with their guns, some deploy reinforcements nto the field. one thing is for certain, shoot them down!" },
+          { id: "helis", name: "Helicopters", tag: "Air", tagType: "bad", text: "Reinforcement and patrol helicopters that can be shot down. Some may hit you hard with their guns, some deploy reinforcements nto the field. One thing is for certain, shoot them down!" },
         ],
       },
     ],
